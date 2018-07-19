@@ -18,18 +18,12 @@ Container that provides ESI and routing tools
     git@github.com:RedHatInsights/insights-proxy.git
     ```
 
-2. Install dependencies
-
-    ```bash
-    $ npm install
-    ```
-
-3. Setup the initial /etc/hosts entries (do this once)
+2. Setup the initial /etc/hosts entries (do this once)
     ```
     $ sudo bash scripts/patch-etc-hosts.sh
     ```
 
-4. Pull/Update the proxy container
+3. Pull/Update the proxy container
     ```
     $ bash scripts/update.sh
     ```
